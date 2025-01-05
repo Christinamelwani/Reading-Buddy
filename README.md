@@ -11,3 +11,6 @@ Planned features:
 - A bit of Gamifying?
 
 Uses Google Books API
+
+The Frontend and Backend of this app are both being built with Next TS and the React Library
+The Prisma ORM is used with a local Postgres DB for data storage
