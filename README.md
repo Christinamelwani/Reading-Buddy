@@ -12,5 +12,4 @@ Planned features:
 
 Uses Google Books API
 
-The Frontend and Backend of this app are both being built with Next TS and the React Library
-The Prisma ORM is used with a local Postgres DB for data storage
+The app's frontend and backend are being developed using Next.js with TypeScript and the React library. For data management, Prisma ORM is integrated with a local PostgreSQL database.
