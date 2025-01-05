@@ -5,7 +5,8 @@ export {};
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      GOOGLE_BOOKS_API_KEY: string
+      GOOGLE_BOOKS_API_KEY: string,
+      DATABASE_URL: string,
     }
   }
 }
