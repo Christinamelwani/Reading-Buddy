@@ -1,5 +1,5 @@
-import AddToLibraryButton from "@/components/AddToLibraryButton";
-import BookCard from "@/components/BookCard";
+import AddToLibraryButton from "./components/AddToLibraryButton";
+import BookCard from "./components/BookCard";
 
 export default function Home() {
   const bookCards = Array.from({ length: 4 }, (_, i) => <BookCard key={i} />);

@@ -1,7 +1,7 @@
+import { SEARCH_FOR_BOOKS } from "@/app/helpers/routes";
+import { BookSearchRequest } from "@/app/helpers/types";
+import { parseBookSearchParams } from "@/app/helpers/utitlities";
 import { NextResponse } from "next/server";
-import { BookSearchRequest } from "../../../helpers/types";
-import { parseBookSearchParams } from "@/helpers/utitlities";
-import { SEARCH_FOR_BOOKS } from "@/helpers/routes";
 
 export async function GET(req: BookSearchRequest) {
   const searchParams = parseBookSearchParams(req.nextUrl.searchParams);
